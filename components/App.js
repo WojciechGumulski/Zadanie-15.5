@@ -20,7 +20,7 @@ App = React.createClass({
         }.bind(this));
     },
 
-    getGif: function(searchingText, callback) {
+    getGif: function(searchingText) {
         return new Promise ( 
             (resolve, reject) => {
                 const GIPHY_PUB_KEY = 'vL0XZUL2TlbhD3wH2W27UOWvAkT4xIX5';
